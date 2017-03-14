@@ -1,18 +1,20 @@
 html {box-sizing:border-box;}
 *, *:before, *:after {box-sizing: inherit;}
 
-div#ball {
-	position:absolute;
-	top:0;
-	left:0;
-	width:100px;
-	height:100px;
-	background:#cc0000;
-	border-radius:50%;
-	transition:2s ;
+body {
+	width: 500px;
+	font-family:tahoma;
 }
 
-#ball.move {
-	left:500px;
-	top:500px;
+h2 {
+	font-size:20px;
+}
+button#heading {
+	background-color:#00C6D6;
+	color:white;
+	width:100%;
+	text-align:left;
+	border:none;
+	outline:none;
+	transition: 0.5s;
 }
