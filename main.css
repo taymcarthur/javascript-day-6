@@ -1,0 +1,18 @@
+html {box-sizing:border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+div#ball {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100px;
+	height:100px;
+	background:#cc0000;
+	border-radius:50%;
+	transition:2s ;
+}
+
+#ball.move {
+	left:500px;
+	top:500px;
+}
