@@ -23,10 +23,14 @@ button#heading {
 
 button#heading.active, button#heading:hover {
 	background-color:grey;
+	background:rgb(0,218,236);
 }
 
 div.dropdown {
 	padding: 0 18px;
+	display:block;
+	height:40px;
+	line-height:40px;
 }
 
 p {
