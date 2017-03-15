@@ -17,4 +17,18 @@ button#heading {
 	border:none;
 	outline:none;
 	transition: 0.5s;
+	cursor:pointer;
+	padding:-none;
+}
+
+button#heading.active, button#heading:hover {
+	background-color:grey;
+}
+
+div.dropdown {
+	padding: 0 18px;
+}
+
+p {
+	color:grey;
 }
