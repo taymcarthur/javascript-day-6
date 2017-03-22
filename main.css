@@ -6,36 +6,34 @@ body {
 	font-family:tahoma;
 }
 
-
-
-a {
-	font-size:20px;
+#accordion {
+	width:400px;
+	list-style:none;
+	margin:30px auto;
 }
-button#heading {
-	background-color:#00C6D6;
+
+li a {
+	display:block;
+	height:40px;
+	line-height:40px;
 	color:white;
-	width:100%;
-	text-align:left;
-	border:none;
-	outline:none;
-	transition: 2s;
-	cursor:pointer;
-	padding:-none;
+	background:rgb(0,198,214);
+	text-decoration:none;
+	padding-left:20px;
+
 }
 
-button#heading.active, button#heading:hover {
-	background-color:grey;
+li a:hover {
 	background:rgb(0,218,236);
 }
 
-div.dropdown {
-	padding: 0 18px;
-	display:block;
-	height:0px;
-	line-height:40px;
+section {
+	height:0;
 	overflow:auto;
 }
 
-p {
-	color:grey;
+section p {
+	padding:20px;
 }
+
+
