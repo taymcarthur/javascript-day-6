@@ -6,7 +6,9 @@ body {
 	font-family:tahoma;
 }
 
-h2 {
+
+
+a {
 	font-size:20px;
 }
 button#heading {
@@ -16,7 +18,7 @@ button#heading {
 	text-align:left;
 	border:none;
 	outline:none;
-	transition: 0.5s;
+	transition: 2s;
 	cursor:pointer;
 	padding:-none;
 }
@@ -29,8 +31,9 @@ button#heading.active, button#heading:hover {
 div.dropdown {
 	padding: 0 18px;
 	display:block;
-	height:40px;
+	height:0px;
 	line-height:40px;
+	overflow:auto;
 }
 
 p {

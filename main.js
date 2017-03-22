@@ -1,7 +1,7 @@
 $(document).ready(function(){
-	$("heading").on('click', function(){
-		$("heading").removeID('open')
-		$(this).find("+ dropdown")
+	$("a").on('click', function(){
+		$("section").removeClass('open')
+		$(this).find("+ section").addClass('open')
 	})
 
 <script
